@@ -1,0 +1,236 @@
+@media screen and (min-width: 961px){
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 300px;
+    height: 150px;
+}
+.navbar{
+    background-color: #989C7C;
+    color: #C9C9C9;
+    padding: 1rem;
+    font-family: Roboto;
+}
+.navbar img{
+    background-color: #989C7C;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.navbar2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ul a{
+    text-decoration: none;
+    color: #C9C9C9;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    padding: 1rem;
+    display: inline;
+}
+.fa-magnifying-glass{
+    font-weight: bold; 
+}
+.plant{
+    width: 1440px;
+    height: 500px;
+    position: relative;
+}
+.banner h2{
+    font-size:30px;
+    position: absolute;
+    left: 45%;
+    bottom: 40%;
+    color: #C97C1D;
+    font-family: Roboto;
+}
+.bodyp h1{
+    text-align: center;
+}
+.bodyp h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #575757;
+    font-family: dancing moon script;
+    font-size: 45px;
+    font-weight:lighter;
+}
+h2{
+    font-family: roboto;
+}
+p{
+    font-family: roboto;
+}
+.notes{
+    width: 300px;
+    height: 250px;
+    float: left;
+    padding-left: 9rem;
+    padding-right: 4rem;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
+h1, h2{
+    text-align: center;
+    font-family: dancing moon script;
+    color: #575757;
+}
+.bodyp :nth-child(3){
+    padding-bottom: 12rem;
+    padding-right: 12rem;
+    color: #707070;
+    font-size: 18px;
+}
+.bodyp :nth-child(2){
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+    position: relative;
+    right: 19%;
+}
+.bodyp :nth-child(5){
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    color: #707070;
+    font-size: 18px;
+}
+h2{
+    font-size: 30px;
+    padding-top: 3rem;
+}
+footer{
+    background-color: #989C7C; 
+    padding: 2rem;
+    font-family: Roboto;
+}
+footer :nth-child(1){
+    position: relative;
+    top: 70px;
+    font-size: x-small;
+    color: #C9C9C9;
+}
+footer :nth-child(2){
+    font-size: small;
+    text-align: center;
+    color: #C9C9C9;
+}
+}
+@media screen and (max-width: 960px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .logo{
+        width: 300px;
+        height: 150px;
+    }
+    .navbar{
+        background-color: #989C7C;
+        color: #C9C9C9;
+        padding: 1rem;
+        font-family: Roboto;
+    }
+    .navbar img{
+        background-color: #989C7C;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+    .navbar2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    ul a{
+        text-decoration: none;
+        color: #C9C9C9;
+    }
+    li{
+        list-style: none;
+        font-size: 20px;
+        padding: 1rem;
+        display: inline;
+    }
+    .fa-magnifying-glass{
+        font-weight: bold; 
+    }
+    .plant{
+        width: 560px;
+        height: 300px;
+    }
+    .banner h2{
+        font-size:30px;
+        position: absolute;
+        bottom: 45%;
+        left: 40%;
+        color: #C97C1D;
+        font-family: Roboto;
+    }
+    .bodyp h1{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        color: #575757;
+        font-family: dancing moon script;
+        font-size: 45px;
+        font-weight:lighter;
+    }
+    p{
+        font-family: roboto;
+    }
+    .notes{
+        display: none;
+    }
+    h1, h2{
+        font-family: dancing moon script;
+        color: #575757;
+    }
+    .bodyp :nth-child(3){
+        padding-left: 2rem;
+        color: #707070;
+        font-size: 18px;
+        padding-right: 2rem;
+    }
+    .bodyp :nth-child(2){
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+
+    }
+    .bodyp :nth-child(5){
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        color: #707070;
+        font-size: 18px;
+    }
+    h2{
+        font-size: 30px;
+        padding-top: 3rem;
+        padding-left: 2rem;
+    }
+    footer{
+        background-color: #989C7C; 
+        padding: 2rem;
+        font-family: Roboto;
+    }
+    footer :nth-child(1){
+        position: relative;
+        top: 70px;
+        font-size: x-small;
+        color: #C9C9C9;
+    }
+    footer :nth-child(2){
+        font-size: small;
+        text-align: center;
+        color: #C9C9C9;
+    }
+}
